@@ -112,6 +112,7 @@ class VIEW3D_PT_johnnygizmo_rigging_tools(bpy.types.Panel):
             if tools_display:
                 tools_display.operator("object.johnnygizmo_mesh_bone_magnet", text="Mesh Bone Magnet", icon='SNAP_ON')
                 tools_display.operator("mesh.johnnygizmo_vertex_bone_picker", text="Vertex Bone Assignment", icon='BONE_DATA')
+                tools_display.operator("mesh.johnnygizmo_bone_per_vertex", text="Bone Per Vertex", icon='BONE_DATA')
                 # tools_display.operator("mesh.johnnygizmo_add_bone_at_selected", text="Add Bone at Selected", icon='ADD')
 
         
